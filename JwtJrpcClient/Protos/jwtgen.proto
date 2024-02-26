@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+package jwtgen;
+
+service JwtService {
+  rpc GenerateToken (User) returns (JwtReply);
+}
+
+message User {
+  string username = 1;
+  string password = 2;
+}
+
+message JwtReply {
+  string token = 1;
+}

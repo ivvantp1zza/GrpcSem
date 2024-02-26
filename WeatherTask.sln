@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService", "WeatherService\WeatherService.csproj", "{BD48BD74-FCD7-4F59-B28A-19ADC14EA02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherClient2", "WeatherClient2\WeatherClient2.csproj", "{00C7C245-9706-4581-9EFC-48E3F20599C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtGrpcService", "JwtGrpcService\JwtGrpcService.csproj", "{E29D48B3-A6C4-403C-B8EF-BEFCC4B8B886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtJrpcClient", "JwtJrpcClient\JwtJrpcClient.csproj", "{07CDC963-2E70-45F8-ABB7-434CBDBFF28A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD48BD74-FCD7-4F59-B28A-19ADC14EA02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD48BD74-FCD7-4F59-B28A-19ADC14EA02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD48BD74-FCD7-4F59-B28A-19ADC14EA02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD48BD74-FCD7-4F59-B28A-19ADC14EA02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C7C245-9706-4581-9EFC-48E3F20599C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C7C245-9706-4581-9EFC-48E3F20599C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C7C245-9706-4581-9EFC-48E3F20599C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C7C245-9706-4581-9EFC-48E3F20599C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29D48B3-A6C4-403C-B8EF-BEFCC4B8B886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29D48B3-A6C4-403C-B8EF-BEFCC4B8B886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29D48B3-A6C4-403C-B8EF-BEFCC4B8B886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29D48B3-A6C4-403C-B8EF-BEFCC4B8B886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CDC963-2E70-45F8-ABB7-434CBDBFF28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CDC963-2E70-45F8-ABB7-434CBDBFF28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CDC963-2E70-45F8-ABB7-434CBDBFF28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CDC963-2E70-45F8-ABB7-434CBDBFF28A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
